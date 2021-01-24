@@ -1,10 +1,10 @@
 #! /bin/bash
 
-#yum install epel-release -y
-#yum update -y
-#yum install python-setuptools m2crypto supervisor -y
-#easy_install pip
-#pip install shadowsocks
+yum install epel-release -y
+yum update -y
+yum install python-setuptools m2crypto supervisor -y
+easy_install pip
+pip install shadowsocks
 
 # create shadowsocks.conf file
 file_name='/etc/shadowsocks.json'
