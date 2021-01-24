@@ -29,3 +29,7 @@ echo 'logfile=/var/log/shadowsocks.log' >> /etc/supervisord.conf
 
 # config /etc/rc.local
 echo 'service supervisord start' >> /etc/rc.local
+
+# run server
+ssserver -c /etc/shadowsocks.json
+
